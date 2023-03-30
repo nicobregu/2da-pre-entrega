@@ -1,5 +1,5 @@
 .logo{   
-    color: #e95b2b; */
+    color: #e95b2b;
     text-shadow: 0 0 2px white;
 }
 
@@ -237,3 +237,9 @@
     color: white;
 }
 
+.aside4Nos{
+    background-image: url(./images/somoscervecerosNos.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
