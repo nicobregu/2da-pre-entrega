@@ -1,0 +1,239 @@
+.logo{   
+    color: #e95b2b; */
+    text-shadow: 0 0 2px white;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.barra{
+    background-color: black;
+    height: 80px;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+.jumbotron{
+    background-image: url(/images/imgdescargadas/index1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    margin-bottom: 0;
+    border-radius: 0;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.container-fluid{
+    height: 550px;
+    padding: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+}
+
+.row{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.container-fluid h2{
+    color: #e95b2b;
+    text-shadow: 0 0 5px black;
+}
+
+.boton{
+    background-color: #e95b2b;
+    color: white;
+    border-radius: 10px;
+}
+
+.Nleft{
+    text-align: center;
+}
+
+.imgnosotrosinicio{
+    background-image: url(./images/indexnosotros.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.Ncenter{
+    text-align: center;
+}
+
+.imgestilosinicio{
+    background-image: url(./images/imgestilosindex.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.Nright{
+    text-align: center;
+}
+
+.imgvendelaceluinicio{
+    background-image: url(./images/vendelacelu.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.footer{
+    height: 350px;
+    background-color: gray;
+    padding: 15px
+}
+
+.footer h2{
+    color: #e95b2b;
+    text-shadow: 0 0 5px black;
+}
+
+.Fboton{
+    background-color: #e95b2b;
+    color: white;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+
+.footer p{
+    color: white;
+}
+
+.containerlogo{
+    background-image: url(./images/logolacelusinfondo.png);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 250px;
+    padding: 15px
+}
+
+.piedepagina{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.piedepagina h3{
+    color: white;
+    font-size: 12px;
+}
+
+.jumbotronNos{
+    height: 650px;
+    background-image: url(./images/nosotros1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotronNos h1{
+    color: white;
+    text-shadow: 0 0 5px black;
+    margin-bottom: 45px;
+    margin-left: 15px;
+}
+
+.seccion1Nos{
+    height: auto;
+    margin-bottom: 0;
+    background-color: black;
+    padding: 15px;
+    padding-bottom: 15px;
+
+}
+
+.articleNos1{
+    background-image: url(./images/nosotros2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.asideNos1 h2{
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+}
+
+.asideNos1 h3{
+    color: white;
+}
+
+.seccion2Nos{
+    height: auto;
+    padding: 25px;
+    padding-bottom: 25px;
+    background-color: black;
+}
+
+.article2Nos h2{
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+}
+
+.article2Nos h3{
+    color: white;
+}
+
+.aside2Nos{
+    background-image: url(./images/apasionadosnosotros.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.seccion3Nos{
+    height: auto;
+    padding: 25px;
+    padding-bottom: 25px;
+    background-color: black;
+}
+
+.article3Nos{
+    background-image: url(./images/nosotros3.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.aside3Nos h2{
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+}
+
+.aside3Nos h3{
+    color: white;
+}
+
+.seccion4Nos{
+    height: auto;
+    padding: 25px;
+    padding-bottom: 25px;
+    background-color: black;
+}
+
+.article4Nos h2{
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+}
+
+.article4Nos h3{
+    color: white;
+}
+
