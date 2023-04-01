@@ -305,4 +305,123 @@
     text-shadow: 0 0 5px black;
     margin-bottom: 45px;
     margin-left: 15px;
+    padding-right: 20px;
 }
+
+/* inicio seccion1 Productos */
+
+.latasPro{
+    background-color: black;
+    height: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.latasPro h2{
+    color: #e95b2b;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 0 2px white;
+}
+
+.latasPro p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.imglatasPro{
+    height: 450px;
+    background-image: url(./images/productolatas.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* cierre de seccion1 Productos  */
+
+/* inicio de seccion2 Productos */
+
+.growlersPro{
+    background-color: black;
+    height: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.growlersPro h2{
+    color: #e95b2b;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 0 2px white;
+}
+
+.growlersPro p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* cierre de seccion2 Productos */
+
+/* inicio de seccion3 Productos */
+
+.choperasPro{
+    background-color: black;
+    height: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.choperasPro h2{
+    color: #e95b2b;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 0 2px white;
+}
+
+.choperasPro p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* cierre de seccion3 Productos */
+
+/* inicio de seccion4 Productos */
+
+.barrilesPro{
+    background-color: black;
+    height: 130px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.barrilesPro h2{
+    color: #e95b2b;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 0 2px white;
+}
+
+.barrilesPro p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* cierre de seccion4 Productos */
+
+/* inicio de footer Productos */
+
+.piedepaginaPro {
+    background-color: #e95b2b;
+    text-align: center;
+    padding: 10px;
+}
+
+.piedepaginaPro h3{
+    color: white;
+    font-size: 12px;
+}
+
+/* cierre de footer Productos */
