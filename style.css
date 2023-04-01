@@ -1,26 +1,23 @@
 /* h3 --- font-family: 'Lexend Deca', sans-serif; --- h3 */
 /* h2 --- font-family: 'Bebas Neue', cursive; --- h2 */
 
-.logo{   
-    color: #e95b2b;
-    text-shadow: 0 0 2px white;
-}
+/* inicio barra de navegacion */
 
-.navbar-brand{
-    font-size: 30px;
-}
-
-.barra{
+.navbar{
     background-color: black;
-    height: 80px;
+    height: auto;
 }
 
-.nav-item{
+.navbar a{
     font-size: 20px;
+    color: white !important;
 }
+/* cierre de barra de navegacion */
+
+/* inicio de jumbotron */
 
 .jumbotron{
-    background-image: url(/images/imgdescargadas/index1.jpg);
+    background-image: url(./images/imgdescargadas/index1.jpg);
     background-size: cover;
     background-position: center;
     height: 650px;
@@ -30,8 +27,12 @@
     text-shadow: 0 0 5px black;
 }
 
+/* cierre de jumbotron */
+
+/* inicio de segunda seccion */
+
 .container-fluid{
-    height: 550px;
+    height: auto;
     padding: 15px;
     padding-bottom: 15px;
     background-color: black;
@@ -45,12 +46,22 @@
 .container-fluid h2{
     color: #e95b2b;
     text-shadow: 0 0 5px black;
+    font-size: 40px;
+    padding: 10px;
 }
 
 .boton{
     background-color: #e95b2b;
     color: white;
-    border-radius: 10px;
+    border-radius: 150px;
+    font-size: 30px;
+}
+
+.row a{
+    color: white;
+    background-color: #e95b2b;
+    border-radius: 150px;
+    text-decoration: none;
 }
 
 .Nleft{
@@ -58,25 +69,37 @@
 }
 
 .imgnosotrosinicio{
-    background-image: url(./images/indexnosotros.jpg);
-    background-position: center;
+    background-image: url(./images/nosotros5.JPG);
+    background-position: bottom;
     background-size: cover;
-    height: 400px;
+    height: 650px;
     margin-bottom: 5px;
     border-radius: 5px;
+    
+}
+
+.imgnosotrosinicio:hover{
+    transform: scale(1.05);
+    transition: all 0.9s;
 }
 
 .Ncenter{
     text-align: center;
+   
 }
 
 .imgestilosinicio{
     background-image: url(./images/imgestilosindex.png);
     background-position: center;
     background-size: cover;
-    height: 400px;
+    height: 650px;
     margin-bottom: 5px;
     border-radius: 5px;
+}
+
+.imgestilosinicio:hover{
+    transform: scale(1.05);
+    transition: all 0.9s;
 }
 
 .Nright{
@@ -87,13 +110,22 @@
     background-image: url(./images/vendelacelu.png);
     background-position: center;
     background-size: cover;
-    height: 400px;
+    height: 650px;
     margin-bottom: 5px;
     border-radius: 5px;
 }
 
+.imgvendelaceluinicio:hover{
+    transform: scale(1.05);
+    transition: all 0.9s;
+}
+
+/* cierre de 2da seccion */
+
+/* inicio de footer */
+
 .footer{
-    height: 350px;
+    height: auto;
     background-color: black;
     padding: 15px;
 }
@@ -107,16 +139,6 @@
     color: white;
 }
 
-.containerlogo{
-    background-image: url(./images/logolacelusinfondo.png);
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    height: 250px;
-    padding: 15px
-}
-
 .piedepagina{
     background-color: #e95b2b;
     text-align: center;
@@ -128,10 +150,15 @@
     font-size: 12px;
 }
 
+/* cierre de footer */
+
+/* inicio de pagina Nosotros */
+/* inicio de seccion 1 Nosotros */
+
 .jumbotronNos{
     height: 650px;
     background-image: url(./images/nosotros1.jpg);
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 
@@ -151,6 +178,10 @@
 
 }
 
+/* cierre de seccion1 Nosotros */
+
+/* inicio de seccion2 Nosotros */
+
 .articleNos1{
     background-image: url(./images/nosotros2.jpg);
     background-position: center;
@@ -169,6 +200,10 @@
     color: white;
     font-family: 'Lexend Deca', sans-serif;
 }
+
+/* cierre de seccion1 Nosotros */
+
+/* inicio de seccion2 Nosotros */
 
 .seccion2Nos{
     height: auto;
@@ -245,8 +280,29 @@
 }
 
 .aside4Nos{
-    background-image: url(./images/somoscervecerosNos.png);
-    background-position: center;
+    background-image: url(./images/nosotros4.JPG);
+    background-position: top;
     background-size: cover;
     height: 300px;
+}
+
+/* cierre de seccion2 Nosotros */
+/* cierre de pagina Nosotros */
+
+/* inicio pagina Productos */
+
+.portadaproductos{
+    background-image: url(./images/fondoproductos.png);
+    background-position: top;
+    background-size: cover;
+    height: 650px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.portadaproductos h1{
+    color: white;
+    text-shadow: 0 0 5px black;
+    margin-bottom: 45px;
+    margin-left: 15px;
 }
