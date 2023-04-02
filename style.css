@@ -2,6 +2,11 @@
 /* h2 --- font-family: 'Bebas Neue', cursive; --- h2 */
 
 /* inicio barra de navegacion */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .navbar{
     background-color: black;
@@ -152,7 +157,7 @@
 
 /* cierre de footer */
 
-/* inicio de pagina Nosotros */
+/* inicio de PAGINA NOSOTROS */
 /* inicio de seccion 1 Nosotros */
 
 .jumbotronNos{
@@ -232,6 +237,10 @@
     height: 300px;
 }
 
+/* cierre de seccion2 Nosotros */
+
+/* inicio de seccion3 Nosotros */
+
 .seccion3Nos{
     height: auto;
     padding: 25px;
@@ -258,6 +267,10 @@
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
 }
+
+/* cierre de seccion3 Nosotros */
+
+/* inicio de seccion4 Nosotros */
 
 .seccion4Nos{
     height: auto;
@@ -286,10 +299,10 @@
     height: 300px;
 }
 
-/* cierre de seccion2 Nosotros */
-/* cierre de pagina Nosotros */
+/* cierre de seccion4 Nosotros */
+/* CIERRE DE PAGINA NOSOTROS */
 
-/* inicio pagina Productos */
+/* INICIO DE PAGINA PRODUCTOS */
 
 .portadaproductos{
     background-image: url(./images/fondoproductos.png);
@@ -426,38 +439,453 @@
 
 /* cierre de footer Productos */
 
-/* inicio de pagina Estilos */
-/* estilo golden */
+/* INICIO DE PAGINA ESTILOS */
 
-.seccion1Est{
+/* inicio portada pagina Estilos */
+
+.portadaestilos{
+    background-image: url(./images/nosotros1.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 650px;
+    margin-bottom: 0;
+    border-radius: 0;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+/* cierre portada pagina Estilos */
+
+/* inicio seccion1 estilo Golden */
+
+.containergolden{
     background-color: black;
-    height: 800px;
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
 }
 
-.estilogolden h2{
-    color: #e95b2b;
-    text-align: center;
-    font-size: 45px;
-    text-shadow: 0 0 2px white;
-}
-
-.estilogolden h3{
-    color: white;
-    font-size: 30px;
-    text-align: center;
-}
-
-.estilogolden h4{
-    color: white;
-    font-size: 20px;
-    text-align: center;
-}
-
-.imgqueen{
-    height: 400px;
-    width: 400px;
-    background-image: url(/images/estiloscerveza/golden1.png);
+.goldenleft{
+    background-image: url(./images/latas/latagolden.png);
     background-position: center;
     background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+.goldencenter{
+    background-image: url(./images/estiloscerveza/golden1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.goldenright h2{
+    margin-bottom: 0;
     text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+    font-size: 60px;
+}
+
+.goldenright h3{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.goldenright h4{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* cierre de seccion estilo Golden */
+
+/* inicio de seccion estilo Ipa */
+
+.containeripa{
+    background-color: black;
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.ipaleft h2{
+    margin-bottom: 0;
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+    font-size: 60px;
+}
+
+.ipaleft h3{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.ipaleft h4{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ipacenter{
+    background-image: url(./images/estiloscerveza/ipa1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.iparight{
+    background-image: url(./images/latas/lataipa.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+/* cierre de seccion estilo Ipa */
+
+/* inicio de seccion estilo Porter */
+
+.containerporter{
+    background-color: black;
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.porterleft{
+    background-image: url(./images/latas/lataporter.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+.portercenter{
+    background-image: url(./images/estiloscerveza/porter1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.porterright h2{
+    margin-bottom: 0;
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+    font-size: 60px;
+}
+
+.porterright h3{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.porterright h4{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* cierre de seccion estilo Porter */
+
+/* inicio de seccion estilo Dulce */
+
+.containerdulce{
+    background-color: black;
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.dulceleft h2{
+    margin-bottom: 0;
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+    font-size: 60px;
+}
+
+.dulceleft h3{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.dulceleft h4{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.dulcecenter{
+    background-image: url(./images/estiloscerveza/dulce1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.dulceright{
+    background-image: url(./images/latas/latadulcesaltenia.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+/* cierre de seccion estilo Dulce */
+
+/* inicio de seccion estilo Kolsch */
+
+.containerkolsch{
+    background-color: black;
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.kolschleft{
+    background-image: url(./images/latas/latakolsch.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+.kolschcenter{
+    background-image: url(./images/estiloscerveza/kolsch1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.kolschright h2{
+    margin-bottom: 0;
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+    font-size: 60px;
+}
+
+.kolschright h3{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.kolschright h4{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* cierre de seccion estilo Kolsch */
+
+.containerscotish{
+    background-color: black;
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.scotishleft h2{
+    margin-bottom: 0;
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+    font-size: 60px;
+}
+
+.scotishleft h3{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.scotishleft h4{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.scotishcenter{
+    background-image: url(./images/estiloscerveza/scotish1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.scotishright{
+    background-image: url(./images/latas/latascotish.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+/* cierre de seccion estilo Scotish */
+
+/* inicio de seccion estilo LaRegalona */
+
+.containerlaregalona{
+    background-color: black;
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.laregalonaleft{
+    background-image: url(./images/latas/lataregalona.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+.laregalonacenter{
+    background-image: url(./images/estiloscerveza/laregalona1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.laregalonaright h2{
+    margin-bottom: 0;
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+    font-size: 60px;
+}
+
+.laregalonaright h3{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.laregalonaright h4{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* cierre de seccion estilo LaRegalona */
+
+/* inicio de seccion estilo Intensidad */
+
+.containerintensidad{
+    background-color: black;
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.intensidadleft h2{
+    margin-bottom: 0;
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+    font-size: 60px;
+}
+
+.intensidadleft h3{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.intensidadleft h4{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.intensidadcenter{
+    background-image: url(./images/estiloscerveza/intensidad1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.intensidadright{
+    background-image: url(./images/latas/lataintensidad.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+/* cierre de seccion estilo Intensidad */
+
+/* inicio de seccion estilo Divino */
+
+.containerdivino{
+    background-color: black;
+    padding: 25px;
+    padding-bottom: 25px;
+    height: auto;
+}
+
+.divinoleft{
+    background-image: url(./images/latas/latadivino.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 5px;
+}
+
+.divinocenter{
+    background-image: url(./images/estiloscerveza/divino1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.divinoright h2{
+    margin-bottom: 0;
+    text-align: center;
+    color: #e95b2b;
+    text-shadow: 0 0 2px white;
+    font-size: 60px;
+}
+
+.divinoright h3{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.divinoright h4{
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* cierre de seccion estilo Divino */
+
+/* inicio de footer Estilos */
+
+.piedepaginaestilos{
+    background-color: #e95b2b;
+    text-align: center;
+    padding: 10px;
+}
+
+.piedepaginaestilos h3{
+    color: white;
+    font-size: 12px;
 }
