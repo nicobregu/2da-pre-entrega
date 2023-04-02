@@ -425,3 +425,39 @@
 }
 
 /* cierre de footer Productos */
+
+/* inicio de pagina Estilos */
+/* estilo golden */
+
+.seccion1Est{
+    background-color: black;
+    height: 800px;
+}
+
+.estilogolden h2{
+    color: #e95b2b;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 0 2px white;
+}
+
+.estilogolden h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.estilogolden h4{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.imgqueen{
+    height: 400px;
+    width: 400px;
+    background-image: url(/images/estiloscerveza/golden1.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
