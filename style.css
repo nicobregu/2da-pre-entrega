@@ -444,14 +444,18 @@
 /* inicio portada pagina Estilos */
 
 .portadaestilos{
-    background-image: url(./images/nosotros1.jpg);
+    background-image: url(./images/portadaestilos.png);
     background-size: cover;
-    background-position: top;
+    background-position: center;
     height: 650px;
     margin-bottom: 0;
     border-radius: 0;
+}
+
+.portadaestilos h1{
     color: white;
     text-shadow: 0 0 5px black;
+
 }
 
 /* cierre portada pagina Estilos */
@@ -473,18 +477,20 @@
     border-radius: 5px;
 }
 
+.goldenleft:hover{
+        transform: scale(1.05);
+        transition: all 0.9s;
+}
+
 .goldencenter{
-    background-image: url(./images/estiloscerveza/golden1.png);
+    background-image: url(./images/estilosdecervezalogos/golden.png);
     background-position: center;
     background-size: cover;
 }
 
-.goldenright h2{
-    margin-bottom: 0;
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 2px white;
-    font-size: 60px;
+.goldenright{
+    display: flex;
+    align-items: center;
 }
 
 .goldenright h3{
@@ -492,13 +498,6 @@
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
     font-size: 40px;
-}
-
-.goldenright h4{
-    color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    font-size: 20px;
 }
 
 /* cierre de seccion estilo Golden */
@@ -512,30 +511,20 @@
     height: auto;
 }
 
-.ipaleft h2{
-    margin-bottom: 0;
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 2px white;
-    font-size: 60px;
-}
-
 .ipaleft h3{
     color: white;
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 40px;    
 }
 
-.ipaleft h4{
-    color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    font-size: 20px;
+.ipaleft{
+    display: flex;
+    align-items: center;
 }
 
 .ipacenter{
-    background-image: url(./images/estiloscerveza/ipa1.png);
+    background-image: url(./images/estilosdecervezalogos/ipa.png);
     background-position: center;
     background-size: cover;
 }
@@ -568,17 +557,9 @@
 }
 
 .portercenter{
-    background-image: url(./images/estiloscerveza/porter1.png);
+    background-image: url(./images/estilosdecervezalogos/porter.png);
     background-position: center;
     background-size: cover;
-}
-
-.porterright h2{
-    margin-bottom: 0;
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 2px white;
-    font-size: 60px;
 }
 
 .porterright h3{
@@ -588,13 +569,10 @@
     font-size: 40px;
 }
 
-.porterright h4{
-    color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    font-size: 20px;
+.porterright{
+    display: flex;
+    align-items: center;
 }
-
 /* cierre de seccion estilo Porter */
 
 /* inicio de seccion estilo Dulce */
@@ -606,14 +584,6 @@
     height: auto;
 }
 
-.dulceleft h2{
-    margin-bottom: 0;
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 2px white;
-    font-size: 60px;
-}
-
 .dulceleft h3{
     color: white;
     font-family: 'Lexend Deca', sans-serif;
@@ -621,15 +591,13 @@
     font-size: 40px;
 }
 
-.dulceleft h4{
-    color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    font-size: 20px;
+.dulceleft{
+    display: flex;
+    align-items: center;
 }
 
 .dulcecenter{
-    background-image: url(./images/estiloscerveza/dulce1.png);
+    background-image: url(./images/estilosdecervezalogos/dulce.png);
     background-position: center;
     background-size: cover;
 }
@@ -662,17 +630,9 @@
 }
 
 .kolschcenter{
-    background-image: url(./images/estiloscerveza/kolsch1.png);
+    background-image: url(./images/estilosdecervezalogos/kolsch.png);
     background-position: center;
     background-size: cover;
-}
-
-.kolschright h2{
-    margin-bottom: 0;
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 2px white;
-    font-size: 60px;
 }
 
 .kolschright h3{
@@ -682,11 +642,9 @@
     font-size: 40px;
 }
 
-.kolschright h4{
-    color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    font-size: 20px;
+.kolschright{
+    display: flex;
+    align-items: center;
 }
 
 /* cierre de seccion estilo Kolsch */
@@ -698,14 +656,6 @@
     height: auto;
 }
 
-.scotishleft h2{
-    margin-bottom: 0;
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 2px white;
-    font-size: 60px;
-}
-
 .scotishleft h3{
     color: white;
     font-family: 'Lexend Deca', sans-serif;
@@ -713,15 +663,13 @@
     font-size: 40px;
 }
 
-.scotishleft h4{
-    color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    font-size: 20px;
+.scotishleft{
+    display: flex;
+    align-items: center;
 }
 
 .scotishcenter{
-    background-image: url(./images/estiloscerveza/scotish1.png);
+    background-image: url(./images/estilosdecervezalogos/scotish.png);
     background-position: center;
     background-size: cover;
 }
@@ -754,17 +702,9 @@
 }
 
 .laregalonacenter{
-    background-image: url(./images/estiloscerveza/laregalona1.png);
+    background-image: url(./images/estilosdecervezalogos/laregalona.png);
     background-position: center;
     background-size: cover;
-}
-
-.laregalonaright h2{
-    margin-bottom: 0;
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 2px white;
-    font-size: 60px;
 }
 
 .laregalonaright h3{
@@ -774,11 +714,9 @@
     font-size: 40px;
 }
 
-.laregalonaright h4{
-    color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    font-size: 20px;
+.laregalonaright{
+    display: flex;
+    align-items: center;
 }
 
 /* cierre de seccion estilo LaRegalona */
@@ -792,14 +730,6 @@
     height: auto;
 }
 
-.intensidadleft h2{
-    margin-bottom: 0;
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 2px white;
-    font-size: 60px;
-}
-
 .intensidadleft h3{
     color: white;
     font-family: 'Lexend Deca', sans-serif;
@@ -807,15 +737,13 @@
     font-size: 40px;
 }
 
-.intensidadleft h4{
-    color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    font-size: 20px;
+.intensidadleft{
+    display: flex;
+    align-items: center;
 }
 
 .intensidadcenter{
-    background-image: url(./images/estiloscerveza/intensidad1.png);
+    background-image: url(./images/estilosdecervezalogos/intensidad.png);
     background-position: center;
     background-size: cover;
 }
@@ -848,17 +776,9 @@
 }
 
 .divinocenter{
-    background-image: url(./images/estiloscerveza/divino1.png);
+    background-image: url(./images/estilosdecervezalogos/divino.png);
     background-position: center;
     background-size: cover;
-}
-
-.divinoright h2{
-    margin-bottom: 0;
-    text-align: center;
-    color: #e95b2b;
-    text-shadow: 0 0 2px white;
-    font-size: 60px;
 }
 
 .divinoright h3{
@@ -868,11 +788,9 @@
     font-size: 40px;
 }
 
-.divinoright h4{
-    color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    font-size: 20px;
+.divinoright{
+    display: flex;
+    align-items: center;
 }
 
 /* cierre de seccion estilo Divino */
@@ -888,4 +806,29 @@
 .piedepaginaestilos h3{
     color: white;
     font-size: 12px;
+}
+
+/* INICIO DE PAGINA CHOPERAS */
+
+/* inicio de portada choperas */
+
+.portadachoperas{
+}
+
+.portadachoperas{
+    background-image: url(./images/portadaalquilerdechoperas.png);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    margin-bottom: 0;
+    border-radius: 0;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+}
+
+.portadachoperas h1{
+    color: white;
+    text-shadow: 0 0 5px black;
+    margin-right: 15px;
 }
