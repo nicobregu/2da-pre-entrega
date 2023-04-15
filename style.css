@@ -1,6 +1,12 @@
 /* h3 --- font-family: 'Lexend Deca', sans-serif; --- h3 */
 /* h2 --- font-family: 'Bebas Neue', cursive; --- h2 */
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Lexend+Deca&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bebas+Neue&family=Lexend+Deca&family=Oswald&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+
 /* inicio barra de navegacion */
 
 *{
@@ -18,6 +24,7 @@
     font-size: 25px;
     color: white;
     text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
 }
 
 a:hover{
@@ -46,25 +53,33 @@ a{
 
 .jumbotronportada h1{
     color: white;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 10px black;
     padding-right: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
 }
 
 /* cierre de jumbotron */
 
+.mainindex{
+    background: rgb(35,31,32);
+    background: linear-gradient(180deg, rgba(35,31,32,1) 0%, rgba(233,91,43,1) 50%, rgba(35,31,32,1) 100%);
+    height: auto;
+}
+
 /* inicio de prólogo */
 
 .prologo{
-    background-color: black;
     height: auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
 .prologo h2{
     color: white;
-    margin-top: 20px;
+    margin-top: 0;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .prologo strong{
@@ -77,7 +92,6 @@ a{
     height: auto;
     padding: 15px;
     padding-bottom: 15px;
-    background-color: black;
 }
 
 .row{
@@ -86,10 +100,11 @@ a{
 }
 
 .container-fluid h2{
-    color: #e95b2b;
-    text-shadow: 0 0 5px black;
+    color: white;
+    text-shadow: 0 0 10px black;
     font-size: 40px;
     padding: 10px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .btnindex{
@@ -99,6 +114,7 @@ a{
     color: white;
     padding: 8px 10px 8px 10px;
     font-size: 20px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .btnindex:hover{
@@ -121,13 +137,12 @@ a{
 }
 
 .imgnosotrosinicio:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: all 0.9s;
 }
 
 .Ncenter{
     text-align: center;
-   
 }
 
 .imgestilosinicio{
@@ -140,7 +155,7 @@ a{
 }
 
 .imgestilosinicio:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: all 0.9s;
 }
 
@@ -158,7 +173,7 @@ a{
 }
 
 .imgvendelaceluinicio:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: all 0.9s;
 }
 
@@ -171,13 +186,11 @@ a{
     width: auto;
     padding: 15px;
     padding-bottom: 15px;
-    background-color: black;
 }
 
 .videoindex{
     height: auto;
     width: 100%;
-    border: solid 2px #e95b2b;
 }
 
 /* inicio de footer */
@@ -190,11 +203,14 @@ a{
 
 .footer h2{
     color: #e95b2b;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 1px white;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .footer p{
     color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
 }
 
 .Fright{
@@ -203,14 +219,15 @@ a{
 }
 
 .piedepagina{
-    background-color: #e95b2b;
+    background-color: #231f20;
     text-align: center;
     padding: 10px;
 }
 
 .piedepagina h3{
     color: white;
-    font-size: 12px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* cierre de footer */
@@ -230,19 +247,28 @@ a{
 
 .jumbotronNos h1{
     color: white;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 10px black;
     margin-bottom: 15px;
     margin-left: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+
 }
 
 /* cierre de portada Nosotros */
+
+.mainnosotros{
+    background: rgb(35,31,32);
+    background: linear-gradient(180deg, rgba(35,31,32,1) 0%, rgba(233,91,43,1) 50%, rgba(35,31,32,1) 100%);
+    height: auto;
+}
+
 
 /* inicio de seccion1 Nosotros */
 
 .seccion1Nos{
     height: auto;
     margin-bottom: 0;
-    background-color: black;
     padding: 15px;
     padding-bottom: 15px;
 }
@@ -261,13 +287,14 @@ a{
 .asideNos1 h2{
     text-align: center;
     color: #e95b2b;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 10px black;
     font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .asideNos1 h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* cierre de seccion1 Nosotros */
@@ -278,19 +305,19 @@ a{
     height: auto;
     padding: 25px;
     padding-bottom: 25px;
-    background-color: black;
 }
 
 .article2Nos h2{
     text-align: center;
     color: #e95b2b;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 10px black;
     font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .article2Nos h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
 }
 
@@ -310,7 +337,6 @@ a{
     height: auto;
     padding: 25px;
     padding-bottom: 25px;
-    background-color: black;
 }
 
 .article3Nos{
@@ -324,13 +350,14 @@ a{
 .aside3Nos h2{
     text-align: center;
     color: #e95b2b;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 10px black;
     font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .aside3Nos h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
 }
 
@@ -341,20 +368,20 @@ a{
 .seccion4Nos{
     height: auto;
     padding: 25px;
-    padding-bottom: 25px;
-    background-color: black;
+    padding-bottom: 25px;    
 }
 
 .article4Nos h2{
     text-align: center;
     color: #e95b2b;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 10px black;
     font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .article4Nos h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-align: center;
 }
 
@@ -387,24 +414,30 @@ a{
 
 .portadaproductos h1{
     color: white;
-    text-shadow: 0 0 5px black;
-    margin-right: 15px;
+    text-shadow: 0 0 10px black;
+    margin-right: 250px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
 }
 
 /* cierre de portada productos */
+
+.mainproductos{
+    height: auto;
+    background: rgb(35,31,32);
+    background: linear-gradient(180deg, rgba(35,31,32,1) 0%, rgba(233,91,43,1) 50%, rgba(35,31,32,1) 100%);
+}
 
 /* inicio seccion1 Productos */
 
 .containerlatasPro{
     height: auto;
     margin-bottom: 0;
-    background-color: black;
     padding: 15px;
     padding-bottom: 15px;
 }
 
 .latasPro{
-    background-color: black;
     height: 130px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -414,13 +447,15 @@ a{
     color: #e95b2b;
     text-align: center;
     font-size: 45px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 10px black;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .latasPro p{
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .imglatasPro{
@@ -437,13 +472,11 @@ a{
 .containergrowlersPro{
     height: auto;
     margin-bottom: 0;
-    background-color: black;
     padding: 15px;
     padding-bottom: 15px;
 }
 
 .growlersPro{
-    background-color: black;
     height: 130px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -453,13 +486,15 @@ a{
     color: #e95b2b;
     text-align: center;
     font-size: 45px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 10px black;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .growlersPro p{
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .imggrowlersPro{
@@ -476,13 +511,11 @@ a{
 .containterchoperasPro{
     height: auto;
     margin-bottom: 0;
-    background-color: black;
     padding: 15px;
     padding-bottom: 15px;
 }
 
 .choperasPro{
-    background-color: black;
     height: 130px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -492,13 +525,15 @@ a{
     color: #e95b2b;
     text-align: center;
     font-size: 45px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 10px black;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .choperasPro p{
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .imgchoperasPro{
@@ -515,13 +550,11 @@ a{
 .containerbarrilesPro{
     height: auto;
     margin-bottom: 0;
-    background-color: black;
     padding: 15px;
     padding-bottom: 15px;
 }
 
 .barrilesPro{
-    background-color: black;
     height: 130px;
     padding-top: 15px;
     padding-bottom: 35px;
@@ -531,13 +564,15 @@ a{
     color: #e95b2b;
     text-align: center;
     font-size: 45px;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 10px black;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .barrilesPro p{
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .imgbarrilesPro{
@@ -549,20 +584,7 @@ a{
 
 /* cierre de seccion4 Productos */
 
-/* inicio de footer Productos */
-
-.piedepaginaPro {
-    background-color: #e95b2b;
-    text-align: center;
-    padding: 10px;
-}
-
-.piedepaginaPro h3{
-    color: white;
-    font-size: 12px;
-}
-
-/* cierre de footer Productos */
+/* CIERRE DE PAGINA PRODUCTOS */
 
 /* INICIO DE PAGINA ESTILOS */
 
@@ -581,8 +603,10 @@ a{
 
 .portadaestilos h1{
     color: white;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 10px black;
     padding-top: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
 
 }
 
@@ -591,14 +615,14 @@ a{
 /* inicio seccion1 estilo Golden */
 
 .containergolden{
-    background-color: black;
+    background-image: linear-gradient(to right, #660434, #862837, #a14a3b, #b66d42, #c5924f, #c3954f, #c0974f, #be9a50, #ad7b3d, #995d2e, #834022, #6c2418);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
 }
 
 .goldenleft{
-    background-image: url(./images/latas/latagolden.png);
+    background-image: url(./images/latassinfondo/latagolden.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -623,7 +647,8 @@ a{
 
 .goldenright h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
     text-align: center;
     font-size: 40px;
 }
@@ -633,7 +658,7 @@ a{
 /* inicio de seccion estilo Ipa */
 
 .containeripa{
-    background-color: black;
+    background-image: linear-gradient(to right, #b71d37, #be4b3e, #c26c4c, #c68963, #caa380, #bda083, #b19c86, #a59889, #85796e, #665b54, #48403b, #2b2624);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
@@ -641,7 +666,8 @@ a{
 
 .ipaleft h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
     text-align: center;
     font-size: 40px;    
 }
@@ -658,7 +684,7 @@ a{
 }
 
 .iparight{
-    background-image: url(./images/latas/lataipa.png);
+    background-image: url(./images/latassinfondo/lataipa.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -670,14 +696,14 @@ a{
 /* inicio de seccion estilo Porter */
 
 .containerporter{
-    background-color: black;
+    background-image: linear-gradient(to right, #610d1b, #5e112d, #561a3c, #4a2347, #3c2a4e, #402d51, #443154, #483457, #5e3558, #733653, #843a4b, #90413f);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
 }
 
 .porterleft{
-    background-image: url(./images/latas/lataporter.png);
+    background-image: url(./images/latassinfondo/lataporter.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -692,7 +718,8 @@ a{
 
 .porterright h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
     text-align: center;
     font-size: 40px;
 }
@@ -706,7 +733,7 @@ a{
 /* inicio de seccion estilo Dulce */
 
 .containerdulce{
-    background-color: black;
+    background-image: linear-gradient(to right, #e0a9c5, #e3b4cd, #e6bed5, #e9c9dd, #ecd3e4, #e7ccdd, #e1c4d6, #dcbdcf, #cda3b7, #bf889f, #b06f85, #a1556b);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
@@ -714,7 +741,8 @@ a{
 
 .dulceleft h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
     text-align: center;
     font-size: 40px;
 }
@@ -731,7 +759,7 @@ a{
 }
 
 .dulceright{
-    background-image: url(./images/latas/latadulcesaltenia.png);
+    background-image: url(./images/latassinfondo/latadulce.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -743,14 +771,14 @@ a{
 /* inicio de seccion estilo Kolsch */
 
 .containerkolsch{
-    background-color: black;
+    background-image: linear-gradient(to right, #fae343, #fbda4f, #fbd25b, #f8ca65, #f4c36f, #f2bd6d, #f0b76c, #eeb16b, #f0aa60, #f1a455, #f39c4a, #f59540);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
 }
 
 .kolschleft{
-    background-image: url(./images/latas/latakolsch.png);
+    background-image: url(./images/latassinfondo/latakolsch.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -765,7 +793,8 @@ a{
 
 .kolschright h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
     text-align: center;
     font-size: 40px;
 }
@@ -778,7 +807,7 @@ a{
 /* cierre de seccion estilo Kolsch */
 
 .containerscotish{
-    background-color: black;
+    background-image: linear-gradient(to left, #b70c13, #bd4518, #c26627, #c6833d, #cb9d59, #c29e62, #ba9f6b, #b29f75, #998969, #80735e, #675f52, #4e4b47);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
@@ -786,7 +815,8 @@ a{
 
 .scotishleft h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
     text-align: center;
     font-size: 40px;
 }
@@ -803,7 +833,7 @@ a{
 }
 
 .scotishright{
-    background-image: url(./images/latas/latascotish.png);
+    background-image: url(./images/latassinfondo/latascotish.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -815,14 +845,14 @@ a{
 /* inicio de seccion estilo LaRegalona */
 
 .containerlaregalona{
-    background-color: black;
+    background-image: linear-gradient(to right, #40beb5, #55a286, #5f8660, #5f6b45, #575134, #5e4b36, #60463c, #5d4342, #6c535c, #756576, #79798f, #7c8ea2);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
 }
 
 .laregalonaleft{
-    background-image: url(./images/latas/lataregalona.png);
+    background-image: url(./images/latassinfondo/latalaregalona.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -837,7 +867,8 @@ a{
 
 .laregalonaright h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
     text-align: center;
     font-size: 40px;
 }
@@ -852,7 +883,7 @@ a{
 /* inicio de seccion estilo Intensidad */
 
 .containerintensidad{
-    background-color: black;
+    background-image: linear-gradient(to right, #463b31, #594742, #6a5458, #76646f, #7d7586, #7c7790, #787a9a, #717da4, #6c6fa4, #6e5fa0, #754c98, #7e358b);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
@@ -860,7 +891,8 @@ a{
 
 .intensidadleft h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
     text-align: center;
     font-size: 40px;
 }
@@ -877,7 +909,7 @@ a{
 }
 
 .intensidadright{
-    background-image: url(./images/latas/lataintensidad.png);
+    background-image: url(./images/latassinfondo/lataintensidad.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -889,14 +921,14 @@ a{
 /* inicio de seccion estilo Divino */
 
 .containerdivino{
-    background-color: black;
+    background-image: linear-gradient(to right, #ee9150, #f3847c, #df84a1, #bc8cb5, #9a92b5, #958eae, #918aa8, #8c86a1, #9b7a97, #a96e81, #ae6662, #a36641);
     padding: 25px;
     padding-bottom: 25px;
     height: auto;
 }
 
 .divinoleft{
-    background-image: url(./images/latas/latadivino.png);
+    background-image: url(./images/latassinfondo/latadivino.png);
     background-position: center;
     background-size: cover;
     height: 650px;
@@ -911,7 +943,8 @@ a{
 
 .divinoright h3{
     color: white;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 15px black;
     text-align: center;
     font-size: 40px;
 }
@@ -922,19 +955,6 @@ a{
 }
 
 /* cierre de seccion estilo Divino */
-
-/* inicio de footer Estilos */
-
-.piedepaginaestilos{
-    background-color: #e95b2b;
-    text-align: center;
-    padding: 10px;
-}
-
-.piedepaginaestilos h3{
-    color: white;
-    font-size: 12px;
-}
 
 /* INICIO DE PAGINA CHOPERAS */
 
@@ -954,25 +974,33 @@ a{
 
 .portadachoperas h1{
     color: white;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 10px black;
     margin-bottom: 15px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
 }
 
 /* cierre de portada choperas  */
 
+.mainchoperas{
+    height: auto;
+    background: rgb(35,31,32);
+    background: linear-gradient(180deg, rgba(35,31,32,1) 0%, rgba(233,91,43,1) 50%, rgba(35,31,32,1) 100%);
+}
+
 /* inicio de seccion1  */
 
 .seccion1choperas{
-    background-color: black;
     height: 100px;
 }
 
 .seccion1choperas h2{
     color: #e95b2b;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 10px black;
     font: 60px;
     text-align: center;
     padding-top: 25px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .imgseccion1choperas{
@@ -987,16 +1015,16 @@ a{
 /* inicio de seccion2 */
 
 .seccion2choperas{
-    background-color: black;
     height: 100px;
 }
 
 .seccion2choperas h2{
     color: #e95b2b;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 10px black;
     font: 60px;
     text-align: center;
     padding-top: 25px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .imgseccion2choperas{
@@ -1011,16 +1039,16 @@ a{
 /* inicio de seccion3 */
 
 .seccion3choperas{
-    background-color: black;
     height: 100px;
 }
 
 .seccion3choperas h2{
     color: #e95b2b;
-    text-shadow: 0 0 2px white;
+    text-shadow: 0 0 10px black;
     font: 60px;
     text-align: center;
     padding-top: 25px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .imgseccion3choperas{
@@ -1030,29 +1058,16 @@ a{
     height: 500px;
 }
 
-/* inicio pie de pagina */
-
-.piedepaginachoperas{
-        background-color: #e95b2b;
-        text-align: center;
-        padding: 10px;    
-}
-    
-.piedepaginachoperas h3{
-        color: white;
-        font-size: 12px;
-}
-
-/* cierre de pie de pagina */
-
 /* cierre de pagina CHOPERAS ---------------------------------------------------------------------------------- */
 
 /* inicio de pagina CONTACTO -------------------------------------------------------------------------------------  */
 
 .txtcontacto{
     color: white;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 10px black;
     padding-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
 }
 
 .formulario{
@@ -1072,31 +1087,37 @@ a{
 .nombreyapellido{
     font-size: 20px;
     padding-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .email{
     font-size: 20px;
     padding-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .codigodearea{
     font-size: 20px;
     padding-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .telefono{
     font-size: 20px;
     padding-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .motivoconsulta{
     font-size: 20px;
     padding-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .mensaje{
     font-size: 20px;
     padding-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .btncontacto{
@@ -1106,20 +1127,10 @@ a{
     color: white;
     font-size: 20px;
     padding: 8px 10px 8px 10px;
+    
 }
 
 .btncontacto:hover{
     transform: scale(1.08);
     transition: all 0.9s;
-}
-
-.piedepaginacontacto{
-    background-color: #e95b2b;
-    text-align: center;
-    padding: 10px;    
-}
-
-.piedepaginacontacto h3{
-    color: white;
-    font-size: 12px;
 }
