@@ -53,7 +53,7 @@ a{
 
 .jumbotronportada h1{
     color: white;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 15px black;
     padding-right: 15px;
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
@@ -71,6 +71,8 @@ a{
 
 .prologo{
     height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .prologo h2{
@@ -201,6 +203,19 @@ a{
     padding: 15px;
 }
 
+.Fleft{
+    background-color: red;
+}
+
+.Fcenter{
+    background-color: green;
+    text-align: center;
+}
+
+.Fright{
+    background-color: blue;
+}
+
 .footer h2{
     color: #e95b2b;
     text-shadow: 0 0 1px white;
@@ -213,9 +228,11 @@ a{
     font-size: 20px;
 }
 
-.Fright{
-    display: flex;
-    justify-content: center;
+.Fcenter i{
+    color: #e95b2b;
+    font-size: 120px;
+    text-shadow: 0 0 2px white;
+    padding-top: 25px;
 }
 
 .piedepagina{
@@ -247,7 +264,7 @@ a{
 
 .jumbotronNos h1{
     color: white;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 15px black;
     margin-bottom: 15px;
     margin-left: 15px;
     font-family: 'Bebas Neue', cursive;
@@ -319,6 +336,7 @@ a{
     color: white;
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    font-size: 38px;
 }
 
 .aside2Nos{
@@ -359,6 +377,7 @@ a{
     color: white;
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    font-size: 38px;
 }
 
 /* cierre de seccion3 Nosotros */
@@ -383,6 +402,7 @@ a{
     color: white;
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    font-size: 38px;
 }
 
 .aside4Nos{
@@ -414,8 +434,8 @@ a{
 
 .portadaproductos h1{
     color: white;
-    text-shadow: 0 0 10px black;
-    margin-right: 250px;
+    text-shadow: 0 0 15px black;
+    margin-right: 100px;
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
 }
@@ -439,8 +459,8 @@ a{
 
 .latasPro{
     height: 130px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .latasPro h2{
@@ -449,6 +469,7 @@ a{
     font-size: 45px;
     text-shadow: 0 0 10px black;
     font-family: 'Bebas Neue', cursive;
+    padding-top: 8px;
 }
 
 .latasPro p{
@@ -463,6 +484,7 @@ a{
     background-position: center;
     background-size: cover;
     height: 700px;
+    margin-top: 20px;
 }
 
 /* cierre de seccion1 Productos  */
@@ -478,8 +500,8 @@ a{
 
 .growlersPro{
     height: 130px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .growlersPro h2{
@@ -502,6 +524,7 @@ a{
     background-position: center;
     background-size: cover;
     height: 700px;
+    margin-top: 20px;
 }
 
 /* cierre de seccion2 Productos */
@@ -517,8 +540,8 @@ a{
 
 .choperasPro{
     height: 130px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .choperasPro h2{
@@ -541,6 +564,7 @@ a{
     background-position: center;
     background-size: cover;
     height: 700px;
+    margin-top: 20px;
 }
 
 /* cierre de seccion3 Productos */
@@ -556,8 +580,8 @@ a{
 
 .barrilesPro{
     height: 130px;
-    padding-top: 15px;
-    padding-bottom: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .barrilesPro h2{
@@ -580,6 +604,7 @@ a{
     background-position: center;
     background-size: cover;
     height: 700px;
+    margin-top: 20px;
 }
 
 /* cierre de seccion4 Productos */
@@ -603,7 +628,7 @@ a{
 
 .portadaestilos h1{
     color: white;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 15px black;
     padding-top: 15px;
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
@@ -637,7 +662,8 @@ a{
 .goldencenter{
     background-image: url(./images/estilosdecervezalogos/golden.png);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .goldenright{
@@ -680,7 +706,8 @@ a{
 .ipacenter{
     background-image: url(./images/estilosdecervezalogos/ipa.png);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .iparight{
@@ -713,7 +740,8 @@ a{
 .portercenter{
     background-image: url(./images/estilosdecervezalogos/porter.png);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .porterright h3{
@@ -755,7 +783,8 @@ a{
 .dulcecenter{
     background-image: url(./images/estilosdecervezalogos/dulce.png);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .dulceright{
@@ -788,7 +817,8 @@ a{
 .kolschcenter{
     background-image: url(./images/estilosdecervezalogos/kolsch.png);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .kolschright h3{
@@ -829,7 +859,8 @@ a{
 .scotishcenter{
     background-image: url(./images/estilosdecervezalogos/scotish.png);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .scotishright{
@@ -862,7 +893,8 @@ a{
 .laregalonacenter{
     background-image: url(./images/estilosdecervezalogos/laregalona.png);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .laregalonaright h3{
@@ -905,7 +937,8 @@ a{
 .intensidadcenter{
     background-image: url(./images/estilosdecervezalogos/intensidad.png);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .intensidadright{
@@ -932,13 +965,13 @@ a{
     background-position: center;
     background-size: cover;
     height: 650px;
-    border-radius: 5px;
 }
 
 .divinocenter{
     background-image: url(./images/estilosdecervezalogos/divino.png);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .divinoright h3{
@@ -974,7 +1007,7 @@ a{
 
 .portadachoperas h1{
     color: white;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 15px black;
     margin-bottom: 15px;
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
@@ -999,7 +1032,7 @@ a{
     text-shadow: 0 0 10px black;
     font: 60px;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 40px;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -1008,6 +1041,7 @@ a{
     background-size: cover;
     background-position: center;
     height: 500px;
+    margin-top: 15px;
 }
 
 /* cierre de seccion  */
@@ -1023,7 +1057,7 @@ a{
     text-shadow: 0 0 10px black;
     font: 60px;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 40px;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -1032,6 +1066,7 @@ a{
     background-size: cover;
     background-position: center;
     height: 500px;
+    margin-top: 15px;
 }
 
 /* cierre de seccion2 */
@@ -1047,7 +1082,7 @@ a{
     text-shadow: 0 0 10px black;
     font: 60px;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 40px;
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -1056,6 +1091,7 @@ a{
     background-size: cover;
     background-position: center;
     height: 500px;
+    margin-top: 15px;
 }
 
 /* cierre de pagina CHOPERAS ---------------------------------------------------------------------------------- */
@@ -1064,7 +1100,7 @@ a{
 
 .txtcontacto{
     color: white;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 15px black;
     padding-bottom: 20px;
     font-family: 'Bebas Neue', cursive;
     font-size: 60px;
@@ -1127,7 +1163,7 @@ a{
     color: white;
     font-size: 20px;
     padding: 8px 10px 8px 10px;
-    
+    font-family: 'Oswald', sans-serif;
 }
 
 .btncontacto:hover{
